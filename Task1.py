@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-file_path = r"C:\Users\jidub\OneDrive\Documents\internship\skillcraft\API_SP.POP.TOTL_DS2_en_csv_v2_350067\API_SP.POP.TOTL_DS2_en_csv_v2_350067.csv"
+file_path = "API_SP.POP.TOTL_DS2_en_csv_v2_350067.csv"
 df = pd.read_csv(file_path, skiprows=4)  # Skip the first 4 rows as they usually contain metadata
 
 # Melt the dataframe to convert years from columns to rows
